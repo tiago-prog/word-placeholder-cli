@@ -12,7 +12,7 @@ Este projeto permite que você crie documentos como **Procurações** usando um 
 - Geração de **Procuração** personalizada 🖋️
 - Suporte para modelos **masculino** e **feminino** 📄
 - Armazenamento do documento gerado em uma pasta `output` 📂
-- Detecção automática de nomes duplicados (ex: `tiago`, `tiago (1)`) 📑
+- Detecção automática de nomes duplicados (ex: `Tiago`, `Tiago (1)`) 📑
 
 ## ⚡ **Como Usar?**
 
