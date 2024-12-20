@@ -4,7 +4,7 @@ Este projeto é uma CLI (Interface de Linha de Comando) feita em Go, que permite
 
 ## 💡 **O que é?**
 
-Este projeto permite que você crie documentos docx substituindo **placeholders** com os dados fornecidos pelo usuário, como nome, CPF e endereço ou sejá qualquer outra informação. Essa cli foi pensanda para uso exclusivo e é mais engessado no quesito do placeholder, ele ta programado para procurar por dados como nome, cpf, endereco, cidade e data. Mas não impende de você reescrever o código a seu belprazer.
+Este projeto permite que você crie documentos docx substituindo **placeholders** com os dados fornecidos pelo usuário, como nome, CPF e endereço ou qualquer outra informação. Essa cli foi pensanda para uso exclusivo e é mais engessado no quesito do placeholder, ele ta programado para procurar por dados como nome, cpf, endereco, cidade e data. Mas não impende de você reescrever o código a seu belprazer.
 
 ## 🛠️ **Frameworks/bibliotecas**
 
@@ -33,10 +33,12 @@ go run main.go [comando] [flags]
 
 
 ## 3️⃣ Comandos Disponíveis:
- - gerar procuracao 🎯
+ - gerar procuracao 
     Gera um documento de procuração preenchendo os placeholders com as informações fornecidas pelo usuário.
-
+   
+```bash
 go run main.go gerar procuracao --modelo [masculino|feminino] --nome [nome] --status [status_civil] --nacionalidade [nacionalidade] --cpf [cpf] --endereco [endereco] --cidade [cidade] --data [data]
+```
 
 ## 4️⃣ Exemplo de Execução
 Imagine que você quer gerar uma procuração para João da Silva. O comando seria:
