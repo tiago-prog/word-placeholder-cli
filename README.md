@@ -34,7 +34,7 @@ go run main.go [comando] [flags]
 
 ## 3️⃣ Comandos Disponíveis:
  - gerar procuracao 
-    Gera um documento de procuração preenchendo os placeholders com as informações fornecidas pelo usuário.
+    Gera um documento, por exemplo uma procuração, preenchendo os placeholders com as informações fornecidas pelo usuário.
    
 ```bash
 go run main.go gerar procuracao --modelo [masculino|feminino] --nome [nome] --status [status_civil] --nacionalidade [nacionalidade] --cpf [cpf] --endereco [endereco] --cidade [cidade] --data [data]
